@@ -1050,6 +1050,7 @@ hr {
 
 .st-site-branding img{
   width: 50px;
+  border-radius: 10px;
 }
 
 .author-main{
