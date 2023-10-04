@@ -40,7 +40,7 @@
 body,
 html {
   color: #a9adb8;
-  background-color: #0a101e;
+  background-color: #000000;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -460,12 +460,14 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  color: #cecece;
 }
 
 .st-content {
   position: relative;
   z-index: 10;
   overflow-x: hidden;
+  
 }
 
 .st-sticky-footer {
@@ -477,15 +479,18 @@ a:hover {
 }
 
 .st-dark-bg {
-  background-color: #070d1b;
+  background-color: #111111ab;
+  
 }
 
 .st-gray-bg {
   background-color: #b8b8b8;
+  
 }
 
 .st-gray-overlay {
   position: relative;
+  
 }
 
 .st-gray-overlay:before {
@@ -496,6 +501,7 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color: rgba(184, 184, 184, 0.86);
+  
 }
 
 .st-gray-overlay .container {
@@ -511,6 +517,7 @@ hr {
 
 .st-fixed-bg {
   background-attachment: fixed;
+  
 }
 
 @media screen and (max-width: 991px) {
@@ -555,7 +562,8 @@ hr {
 }
 
 .st-site-header.st-style1.st-sticky-active {
-  background-color: #070d1b;
+  background-color: #1b1b1bbd;
+  backdrop-filter: blur(10px);
   -webkit-box-shadow: 0 10px 10px -10px rgba(7, 13, 27, 0.1);
           box-shadow: 0 10px 10px -10px rgba(7, 13, 27, 0.1);
 }
@@ -799,7 +807,7 @@ hr {
 @media screen and (min-width: 991px) {
   .st-site-header.st-style2 {
     width: 300px;
-    background: #070d1b;
+    background: #0d1b07;
     height: 100vh;
     border-right: 1px solid #101624;
     overflow: auto;
@@ -930,7 +938,7 @@ hr {
 .st-hero-wrap {
   position: relative;
   height: 850px;
-  background-color: #070d1b;
+  background-color: #07121b;
 }
 
 .st-hero-wrap img {
@@ -1528,7 +1536,7 @@ canvas {
           transform: translateX(-50%);
   font-size: 90px;
   font-weight: 700;
-  color: rgba(21, 27, 41, 0.5);
+  color: rgba(37, 37, 37, 0.466);
   margin: 0;
   margin-top: -17px;
   width: 100%;
@@ -1616,7 +1624,11 @@ canvas {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: 1px solid #232935;
-  background-color: #101624;
+  background-color: #202225b9;
+}
+.st-iconbox.st-style1:hover{
+  background-color: #fec544;
+  color: #222222;
 }
 
 .st-iconbox.st-style1:hover .st-iconbox-icon {
@@ -1624,11 +1636,11 @@ canvas {
 }
 
 .st-iconbox.st-style1:hover .st-iconbox-icon svg {
-  fill: #fec544;
+  fill: #ffffff;
 }
 
 .st-iconbox.st-style1:hover .st-iconbox-title {
-  color: #fec544;
+  color: #000000;
 }
 
 .st-iconbox.st-style1 .st-iconbox-icon {
@@ -1643,9 +1655,9 @@ canvas {
           justify-content: center;
   height: 90px;
   width: 90px;
-  border: 0.5px solid #3f4551;
+  border: 0.5px solid #ffc107;
   border-radius: 50%;
-  background-color: #070d1b;
+  background-color: #050607;
   margin: auto;
   font-size: 50px;
   margin-bottom: 28px;
@@ -1655,7 +1667,7 @@ canvas {
 
 .st-iconbox.st-style1 .st-iconbox-icon svg {
   width: 52px;
-  fill: #3f4551;
+  fill: #ffc107;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -3023,10 +3035,10 @@ canvas {
 .st-form-field textarea {
   display: block;
   width: 100%;
-  color: #a9adb8;
+  color: #8f8f8f;
   padding: 12px 20px;
-  border: 1px solid #232935;
-  background-color: #101624;
+  border: 1px solid #333333;
+  background-color: #52525267;
   height: 52px;
   border-radius: 7px;
   -webkit-transition: all .4s ease;
@@ -3050,7 +3062,7 @@ canvas {
 
 .st-form-field input::placeholder,
 .st-form-field textarea::placeholder {
-  color: #3f4551;
+  color: #8f8f8f;
 }
 
 .st-form-field input:focus,
@@ -3094,7 +3106,7 @@ canvas {
           align-items: center;
   border: 0.5px solid #3f4551;
   border-radius: 50%;
-  background-color: #070d1b;
+  background-color: #52525246;
   width: 50px;
   height: 50px;
   margin-right: 20px;
@@ -3143,7 +3155,7 @@ canvas {
 
 .st-social-link .st-social-btn {
   border-radius: 50px;
-  background-color: #070d1b;
+  background-color: #52525215;
   border: 0.5px solid #3f4551;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
