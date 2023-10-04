@@ -3173,6 +3173,12 @@ canvas {
       -ms-flex-align: center;
           align-items: center;
 }
+.st-social-btn:hover{
+  background-color: #fab922be;
+  color: #fdfeff;
+  transition: none;
+}
+
 
 .st-social-link .st-social-btn:not(:last-child) {
   margin-right: 20px;
